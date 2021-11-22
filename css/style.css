@@ -1,0 +1,173 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: url("../images/backgroundpage.jpg");
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+div{
+    display: grid;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    height: 100px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background: #3f51b5d1;
+    font-family: serif;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+}
+
+#main{
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+h1{
+    margin: 0px;
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: Garamond, serif;
+    margin: 10px;
+}
+
+#gameCollection{
+    display: grid;
+    /*columns*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*rows*/
+    grid-auto-rows: max-content;
+    /*space between columns and rows*/
+    grid-column-gap: 15px ;
+    grid-row-gap: 15px ;
+}
+
+.games{
+    height: 580px;
+    /*width: 350px;*/
+    /*padding: 17px;*/
+    background-color: white;
+    border-radius: 6px;
+}
+
+.games img {
+    width: 61%;
+    height: 93%;
+    display: grid;
+    object-fit: fill;
+    justify-self: center;
+
+}
+
+.button {
+    height: 40px;
+}
+
+/*.gameRate {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    width: 25%;*/
+/*    padding: 10px 15px;*/
+/*    background: linear-gradient(260deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 61%, rgba(0,0,0,0) 100%);*/
+/*    color: #fff;*/
+/*    text-align: right;*/
+/*}*/
+
+/*.fa-star {*/
+/*    font-size: 16px;*/
+/*    color: #f1f116;*/
+/*}*/
+
+/*.readMore {*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    border: 1px solid #2d2d2d;*/
+/*    padding: .5rem 1rem;*/
+/*    cursor: pointer;*/
+/*    border-radius: .25rem;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.favButton, .removeFavButton {*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    border: 1px solid #2d2d2d;*/
+/*    padding: .5rem 1rem;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+/*    border-radius: .25rem;*/
+/*    display: block;*/
+/*    margin-top: 20px;*/
+/*    transition: 0.3s;*/
+/*}*/
+
+/*.favButton:hover{*/
+/*    background-color: #f1f116;*/
+/*    color: #000;*/
+/*}*/
+
+/*.removeFavButton:hover {*/
+/*    background-color: #ff0000;*/
+/*    color: #fff;*/
+/*}*/
+
+/*!* ----- SIDEBAR ----- *!*/
+/*.right-sidebar {*/
+/*    background-color: #2d2d2d;*/
+/*    color: #fff;*/
+/*    overflow-x: hidden;*/
+/*    padding: 15px;*/
+/*}*/
+
+/*.right-sidebar h2, .right-sidebar h3 {*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*}*/
+
+/*!* ----- FOOTER ----- *!*/
+/*footer {*/
+/*    padding: 5px;*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    font-family: 'Oswald', sans-serif;*/
+/*}*/
+
+/*footer a {*/
+/*    color: #fff;*/
+/*}*/
+
+/*!* ----- MEDIA QUERIES ----- *!*/
+
+/*@media all and (min-width: 768px) {*/
+/*    .content {*/
+/*        flex-direction: row;*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*    main {*/
+/*        flex: 3;*/
+/*        order: 1;*/
+/*        min-height: 80vh;*/
+/*    }*/
+/*    .right-sidebar {*/
+/*        flex: 1;*/
+/*        order: 2;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width: 833px) {*/
+/*    header h1 {*/
+/*        font-size: 25px;*/
+/*    }*/
+/*}*/
